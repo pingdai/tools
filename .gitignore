@@ -4,6 +4,19 @@
 *.dll
 *.so
 *.dylib
+tools
+/.idea
+.DS_Store
+.vscode
+.build
+.vimprojects
+swagger.yml
+swagger.json
+*.log
+logs/*
+*.swp
+nohup.out
+.idea/workspace.xml
 
 # Test binary, build with `go test -c`
 *.test
