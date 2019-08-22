@@ -88,6 +88,7 @@ func RootRouter(engine *{{ .PureUse "github.com/gin-gonic/gin" }}.Engine) {
 	{
 		{{ .PureUse "github.com/pingdai/tools/courier/swagger" }}.Init(root)
 		{{ .PureUse "github.com/pingdai/tools/courier/checkhealth" }}.Init(root)
+		{{ .PureUse "github.com/pingdai/tools/courier/spprof" }}.Init(root)
 	}
 
 	// Register your router
