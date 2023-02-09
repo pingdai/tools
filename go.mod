@@ -4,7 +4,7 @@ go 1.16
 
 require (
 	github.com/fatih/color v1.12.0
-	github.com/gin-gonic/gin v1.7.2
+	github.com/gin-gonic/gin v1.7.7
 	github.com/go-redis/redis v6.15.9+incompatible
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/google/uuid v1.2.0
